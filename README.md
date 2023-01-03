@@ -6,9 +6,9 @@ Se utilizaron los siguientes archivos:
 
 ## Matlab
 
-Cinematica_Hex.m - Simulación y envio de datos (MAIN)
+Cinematica_Hex.m - Simulación y envio de datos. (MAIN)
 
-esp32_connect.m - Conexión a ESP32 (Conexión TCP)
+esp32_connect.m - Conexión a ESP32. (Conexión TCP)
 
 ## ArduinoIDE
 
@@ -22,11 +22,11 @@ Se utilizó para serializar y deserealizar los datos de los servos y enviarlos c
 
 ### `WiFi.h`
 
-Se utilizó para crear un servidor y cliente en ESP32, servidor para conexión con MATLAB y cliente para conexión con Robotat
+Se utilizó para crear un servidor y cliente en ESP32, servidor para conexión con MATLAB y cliente para conexión con Robotat.
 
 ### `DynamixelWorkbench.h`
 
-Se utilizó para el control de los servos Dynamixel AX-12A y XL-320 en el microcontrolador OpenCm 9.04
+Se utilizó para el control de los servos Dynamixel AX-12A y XL-320 en el microcontrolador OpenCm 9.04.
 
 ## Autor
 
