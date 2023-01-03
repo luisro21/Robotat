@@ -6,27 +6,27 @@ Se utilizaron los siguientes archivos:
 
 ## Matlab
 
-Cinematica_Hex.m - Simulación y envio de datos 
+Cinematica_Hex.m - Simulación y envio de datos (MAIN)
 
-esp32_connect.m - Conexión a ESP32
+esp32_connect.m - Conexión a ESP32 (Conexión TCP)
 
 ## ArduinoIDE
 
-JSON_Matlab_Robotat.ino - Conexión con Matlab, Robotat y envío de datos a OpenCm 9.04
+JSON_Matlab_Robotat.ino - Conexión con Matlab, Robotat y envío de datos a OpenCm 9.04. (ESP32)
 
-Opencm.ino - Conexión con ESP32 y ejecución de los datos
+Opencm.ino - Conexión UART con ESP32 y ejecución de los datos a los servos Dynamixel. (OpenCm 9.04)
 
 ### `ArduinoJson.h`
 
-Descripcion
+Se utilizó para serializar y deserealizar los datos de los servos y enviarlos con una comunicacion TCP.
 
 ### `WiFi.h`
 
-Descripcion
+Se utilizó para crear un servidor y cliente en ESP32, servidor para conexión con MATLAB y cliente para conexión con Robotat
 
 ### `DynamixelWorkbench.h`
 
-Descripcion
+Se utilizó para el control de los servos Dynamixel AX-12A y XL-320 en el microcontrolador OpenCm 9.04
 
 ## Autor
 
