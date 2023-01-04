@@ -6,7 +6,7 @@ Se utilizaron los siguientes archivos:
 
 ## Matlab
 
-Cinematica_Hex.m - Simulación y envio de datos. (MAIN)
+Cinematica_Hex.m - Simulación y envio de datos. (Main)
 
 esp32_connect.m - Conexión a ESP32. (Conexión TCP)
 
@@ -18,7 +18,7 @@ Opencm.ino - Conexión UART con ESP32 y ejecución de los datos a los servos Dyn
 
 ### `ArduinoJson.h`
 
-Se utilizó para serializar y deserealizar los datos de los servos y enviarlos con una comunicacion TCP.
+Se utilizó para serializar y deserealizar los datos de los servos y enviarlos con una comunicación TCP.
 
 ### `WiFi.h`
 
